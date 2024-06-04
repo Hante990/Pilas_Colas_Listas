@@ -1,7 +1,4 @@
 # Metodos_Numericos
-Realizado por:
-  <li>Diego Alonso Fernández Delagadillo</li>
- 
 <h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">                   
@@ -112,7 +109,7 @@ Verificar palíndromos: Verificar si el contenido de una pila de caracteres es u
     }
     }
 
-  ![Lineal](https://github.com/Hante990/Interpolaci-n2/assets/107586879/0037a026-e06c-45ce-8827-166931a2d22e)
+![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/d20df356-065b-4953-b406-7c8b8caf1a63)
 
 <h2 align = "center"> <font font face = "forte">  <a name="Cuadratica"> 2.- Listas  </a></h2>
 
@@ -236,7 +233,7 @@ Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser le
     }
     }
     
-  ![Cua](https://github.com/Hante990/Interpolaci-n2/assets/107586879/88a62d83-01c4-421a-a441-54eec1a2f964)
+![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/203c88db-b4c1-4dac-b7b9-dc091ae7a61e)
 
 <h2 align = "center"> <font font face = "forte"> <a name="Langrage">  3.- Colas  </a></h2>
 
@@ -285,5 +282,5 @@ Cola de tareas: Una cola de tareas es otra aplicación común, donde los element
     }
     }
 
-![langrage](https://github.com/Hante990/Interpolaci-n2/assets/107586879/dd6934bc-7890-444a-b38d-b6dcecd0ac99)
-    
+  ![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/a1e1edd6-8b1c-4f74-9c9e-992d636f1c14)
+
