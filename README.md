@@ -119,29 +119,29 @@ Verificar palíndromos: Verificar si el contenido de una pila de caracteres es u
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
 Las listas son estructuras de datos lineales y dinámicas que permiten almacenar y manipular conjuntos de elementos. Estas estructuras tienen varias características y operaciones básicas que las hacen útiles en muchos contextos de programación.
-   Características
+  <li>  Características</li>
 Lineal: Los elementos se almacenan en una secuencia sucesiva en la memoria.
 Dinámica: La lista puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.
 No necesariamente ordenada: Los elementos no necesariamente se ordenan en una secuencia específica.
-Operaciones Básicas
+<li> Operaciones Básicas</li>
 Crear: Se crea una lista vacía.
 Destruir: Se elimina la lista y se libera la memoria asignada.
 Insertar: Se agrega un nuevo elemento en una posición específica.
 Eliminar: Se elimina un elemento en una posición específica.
 Consultar: Se obtiene el elemento en una posición específica.
-Tipos de Listas
+<li> Tipos de Listas</li>
 Listas enlazadas: Cada elemento es un nodo que contiene un valor y un apuntador al siguiente nodo.
 Listas dinámicas: La lista puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.
 Listas estáticas: La lista tiene un tamaño fijo y no puede crecer o disminuir.
-Aplicaciones
+<li> Aplicaciones</li>
 Almacenamiento de datos: Utilizarse para almacenar conjuntos de datos que necesitan ser accedidos y manipulados.
 Estructuras de datos complejas: Utilizarse para crear estructuras de datos más complejas, como árboles y grafos.
 Algoritmos de búsqueda y ordenamiento: Utilizarse en algoritmos de búsqueda y ordenamiento para manipular conjuntos de datos.
-Ventajas
+<li> Ventajas</li>
 Flexibilidad: Las listas pueden crecer o disminuir en tamaño según sea necesario.
 Eficiencia: Las listas pueden ser implementadas de manera eficiente en términos de memoria y tiempo de ejecución.
 Facilidad de uso: Las listas son fáciles de implementar y utilizar en muchos contextos de programación.
-Desventajas
+<li> Desventajas</li>
 Complejidad: Las listas pueden ser complejas de implementar y manejar, especialmente en grandes conjuntos de datos.
 Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser lentas en listas grandes.
 
@@ -243,30 +243,30 @@ Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser le
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
 Una cola es una estructura de datos lineal y dinámica que sigue la política de First-In, First-Out (FIFO), es decir, el primer elemento agregado es el primero en ser eliminado. Las colas se utilizan para almacenar y manejar conjuntos de elementos de manera ordenada y eficiente.   
-Características
+<li>Características</li>
 Lineal: Los elementos se almacenan en una secuencia sucesiva en la memoria.
 Dinámica: La cola puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.
 FIFO: El primer elemento agregado es el primero en ser eliminado.
-Operaciones Básicas
+<li>Operaciones Básicas</li>
 Crear: Se crea una cola vacía.
 Destruir: Se elimina la cola y se libera la memoria asignada.
 Insertar: Se agrega un nuevo elemento al final de la cola.
 Eliminar: Se elimina el primer elemento de la cola.
 Consultar: Se obtiene el primer elemento de la cola sin eliminarlo.
-Implementación
+<li>Implementación</li>
 Las colas se pueden implementar utilizando diferentes estructuras de datos, como listas enlazadas o arreglos. La implementación más común es utilizando listas enlazadas, donde cada nodo contiene un valor y un apuntador al siguiente nodo.
-Ventajas
+<li>Ventajas</li>
 Flexibilidad: Las colas pueden crecer o disminuir en tamaño según sea necesario.
 Eficiencia: Las colas pueden ser implementadas de manera eficiente en términos de memoria y tiempo de ejecución.
 Facilidad de uso: Las colas son fáciles de implementar y utilizar en muchos contextos de programación.
-Desventajas
+<li>Desventajas</li>
 Complejidad: Las colas pueden ser complejas de implementar y manejar, especialmente en grandes conjuntos de datos.
 Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser lentas en colas grandes.
-Aplicaciones
+<li>Aplicaciones</li>
 Almacenamiento de datos: Utilizarse para almacenar conjuntos de datos que necesitan ser accedidos y manipulados.
 Estructuras de datos complejas: Utilizarse para crear estructuras de datos más complejas, como árboles y grafos.
 Algoritmos de búsqueda y ordenamiento: Utilizarse en algoritmos de búsqueda y ordenamiento para manipular conjuntos de datos.
-Ejemplos
+<li>Ejemplos</li>
 Cola de impresión: Una cola de impresión es un ejemplo común de cola, donde los elementos se agregan al final y se eliminan del principio.
 Cola de tareas: Una cola de tareas es otra aplicación común, donde los elementos se agregan al final y se eliminan del principio según sea necesario.
 
