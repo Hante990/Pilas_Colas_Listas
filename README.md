@@ -29,22 +29,22 @@ Existen varias estructuras lineales, cada uno con sus propias características y
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
 Las pilas son estructuras de datos lineales y dinámicas que siguen la política de Last-In, First-Out (LIFO), es decir, el último elemento que se agrega es el primero en ser eliminado. Estas estructuras tienen dos operaciones básicas: INSERTAR (llamada PUSH) y ELIMINAR (llamada POP)
-Características
+<li> Características</li>
 Lineal: Los elementos se almacenan en una secuencia sucesiva en la memoria.
 Dinámica: La pila puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.
 LIFO: El último elemento agregado es el primero en ser eliminado.
-Operaciones
-Crear: Se crea una pila vacía.
+<li> Operaciones</li>
+ Crear: Se crea una pila vacía.
 Destruir: Se elimina la pila y se libera la memoria asignada.
 Insertar: Se agrega un nuevo elemento a la pila (llamada PUSH).
 Eliminar: Se elimina el elemento superior de la pila (llamada POP).
 Consultar el tope: Se obtiene el elemento superior de la pila.
-Implementación
+<li>Implementación</li>
 Para implementar una pila, se utiliza una estructura de datos que consta de nodos, cada uno de los cuales contiene un valor y un apuntador al siguiente nodo. El apuntador del último nodo se establece en NULL para indicar el final de la pila.
-Ejemplos
+<li> Ejemplos</li>
 Pila de libros: Una pila de libros en una librería, donde el último libro agregado es el primero en ser retirado.
 Pila de platos: Una pila de platos en una cocina, donde el cocinero toma el plato superior (último agregado) para usarlo.
-Aplicaciones
+<li> Aplicaciones</li>
 Evaluación de expresiones: Utilizarse para evaluar expresiones en postfijo.
 Invertir elementos: Invertir los elementos de una pila.
 Verificar palíndromos: Verificar si el contenido de una pila de caracteres es un palíndromo.
