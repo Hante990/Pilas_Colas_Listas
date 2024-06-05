@@ -1,5 +1,5 @@
 # Metodos_Numericos
-<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Indice </font> </h2>
+<h2 align = "center"> <font color = "darkorange" size = "+6"  font face = "bauhaus 93">  Índice </font> </h2>
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">                   
      <li> <a href="#Descripcion"> Descripción </a> <br> </li>
@@ -26,25 +26,28 @@ Existen varias estructuras lineales, cada uno con sus propias características y
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
 Las pilas son estructuras de datos lineales y dinámicas que siguen la política de Last-In, First-Out (LIFO), es decir, el último elemento que se agrega es el primero en ser eliminado. Estas estructuras tienen dos operaciones básicas: INSERTAR (llamada PUSH) y ELIMINAR (llamada POP)
-<li> Características</li>
-Lineal: Los elementos se almacenan en una secuencia sucesiva en la memoria.
-Dinámica: La pila puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.
-LIFO: El último elemento agregado es el primero en ser eliminado.
-<li> Operaciones</li>
- Crear: Se crea una pila vacía.
-Destruir: Se elimina la pila y se libera la memoria asignada.
-Insertar: Se agrega un nuevo elemento a la pila (llamada PUSH).
-Eliminar: Se elimina el elemento superior de la pila (llamada POP).
-Consultar el tope: Se obtiene el elemento superior de la pila.
-<li>Implementación</li>
+<h3> Características</h3>
+<li>Lineal: Los elementos se almacenan en una secuencia sucesiva en la memoria.</li>
+<li>Dinámica: La pila puede crecer o disminuir en tamaño según se agreguen o eliminen elementos.</li>
+<li>LIFO: El último elemento agregado es el primero en ser eliminado.</li>
+<h3> Operaciones</h3>
+<li>Crear: Se crea una pila vacía.</li>
+<li>Destruir: Se elimina la pila y se libera la memoria asignada.</li>
+<li>Insertar: Se agrega un nuevo elemento a la pila (llamada PUSH).</li>
+<li>Eliminar: Se elimina el elemento superior de la pila (llamada POP).</li>
+<li>Consultar el tope: Se obtiene el elemento superior de la pila.</li>
+<h3>Implementación</h3>
 Para implementar una pila, se utiliza una estructura de datos que consta de nodos, cada uno de los cuales contiene un valor y un apuntador al siguiente nodo. El apuntador del último nodo se establece en NULL para indicar el final de la pila.
-<li> Ejemplos</li>
-Pila de libros: Una pila de libros en una librería, donde el último libro agregado es el primero en ser retirado.
-Pila de platos: Una pila de platos en una cocina, donde el cocinero toma el plato superior (último agregado) para usarlo.
-<li> Aplicaciones</li>
-Evaluación de expresiones: Utilizarse para evaluar expresiones en postfijo.
-Invertir elementos: Invertir los elementos de una pila.
-Verificar palíndromos: Verificar si el contenido de una pila de caracteres es un palíndromo.
+<h3> Ejemplos</h3>
+<li>Pila de libros: Una pila de libros en una librería, donde el último libro agregado es el primero en ser retirado.</li>
+<li>Pila de platos: Una pila de platos en una cocina, donde el cocinero toma el plato superior (último agregado) para usarlo.</li>
+<h3> Aplicaciones</h3>
+<li>Evaluación de expresiones: Utilizarse para evaluar expresiones en postfijo.</li>
+<li>Invertir elementos: Invertir los elementos de una pila.</li>
+<li>Verificar palíndromos: Verificar si el contenido de una pila de caracteres es un palíndromo.</li>
+
+![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/d20df356-065b-4953-b406-7c8b8caf1a63)
+
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
     class Node {
@@ -108,8 +111,8 @@ Verificar palíndromos: Verificar si el contenido de una pila de caracteres es u
         System.out.println("¿La pila está vacía? " + stack.isEmpty());  // Salida: ¿La pila está vacía? false
     }
     }
-
-![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/d20df356-065b-4953-b406-7c8b8caf1a63)
+    
+![Screenshot 2024-06-05 080646](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/415ec603-3f0d-4245-b2ba-d7c5d638f858)
 
 <h2 align = "center"> <font font face = "forte">  <a name="Cuadratica"> 2.- Listas  </a></h2>
 
@@ -141,6 +144,8 @@ Facilidad de uso: Las listas son fáciles de implementar y utilizar en muchos co
 <li> Desventajas</li>
 Complejidad: Las listas pueden ser complejas de implementar y manejar, especialmente en grandes conjuntos de datos.
 Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser lentas en listas grandes.
+
+![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/203c88db-b4c1-4dac-b7b9-dc091ae7a61e)
 
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
@@ -233,7 +238,7 @@ Tiempo de ejecución: Las operaciones de inserción y eliminación pueden ser le
     }
     }
     
-![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/203c88db-b4c1-4dac-b7b9-dc091ae7a61e)
+![Screenshot 2024-06-05 081304](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/4df9e003-7d60-4652-b46c-8adf3f9b9661)
 
 <h2 align = "center"> <font font face = "forte"> <a name="Langrage">  3.- Colas  </a></h2>
 
@@ -267,6 +272,8 @@ Algoritmos de búsqueda y ordenamiento: Utilizarse en algoritmos de búsqueda y 
 Cola de impresión: Una cola de impresión es un ejemplo común de cola, donde los elementos se agregan al final y se eliminan del principio.
 Cola de tareas: Una cola de tareas es otra aplicación común, donde los elementos se agregan al final y se eliminan del principio según sea necesario.
 
+  ![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/a1e1edd6-8b1c-4f74-9c9e-992d636f1c14)
+
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
 
      import java.util.LinkedList;
@@ -282,5 +289,5 @@ Cola de tareas: Una cola de tareas es otra aplicación común, donde los element
     }
     }
 
-  ![download](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/a1e1edd6-8b1c-4f74-9c9e-992d636f1c14)
+![Screenshot 2024-06-05 081454](https://github.com/Hante990/Pilas_Colas_Listas/assets/107586879/d9804c00-40dc-4eb9-ab36-48d7556d7d76)
 
